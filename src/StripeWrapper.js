@@ -11,7 +11,7 @@ function StripeWrapper({ accountId, children }) {
       // If there is no accountId, do not run the loadStripe function.
       if (accountId) {
         const res = await loadStripe(
-          "pk_test_JJ1eMdKN0Hp4UFJ6kWXWO4ix00jtXzq5XG",
+          "YOUR_ACCOUNT_ID",
           {
             stripeAccount: accountId
           }
